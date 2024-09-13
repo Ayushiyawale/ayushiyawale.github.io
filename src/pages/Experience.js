@@ -6,42 +6,7 @@ const Experience = () => {
     <>
       <div class="container-fluid p-0">
         <Header />
-        {/* <section class="resume-section" id="about">
-          <div class="resume-section-content">
-            <h1 class="mb-0">
-              Ayushi
-              <span class="text-primary">Yawale</span>
-            </h1>
-            <div class="subheading mb-5">
-              EWS-372, Ram Nagar Khandwa [M.P.] · (+91) 7974070130 ·
-              <a href="mailto:ayushiyawale4@gmail.com">
-                ayushiyawale4@gmail.com
-              </a>
-            </div>
-            <p class="lead mb-5">
-              Skilled web developer specializing in front-end and back-end
-              development. Proficient in HTML,CSS,PHP and JavaScript etc. Proven
-              ability to create responsive, user-friendly websites and web
-              applications. Strong problem-solving skills and a commitment to
-              delivering high-quality code. Dedicated to staying updated with
-              the latest industry trends and best practices.
-            </p>
-            <div class="social-icons">
-              <a class="social-icon" href="#!">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-              <a class="social-icon" href="#!">
-                <i class="fab fa-github"></i>
-              </a>
-              <a class="social-icon" href="#!">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a class="social-icon" href="#!">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-            </div>
-          </div>
-        </section> */}
+
         <hr class="m-0" />
 
         <section class="resume-section" id="experience">
@@ -52,14 +17,14 @@ const Experience = () => {
                 <h3 class="mb-0">Senior Web Developer</h3>
                 <div class="subheading mb-3">SFS Webtech Pvt. Ltd. Indore</div>
                 <p>
-                  As a Senior Web Developer at SFS WebTech, collaborated with
-                  colleagues to design and implement new features, focusing on
-                  enhancing user experience. Engaged in cross-functional
-                  collaboration to solve complex problems with innovative
-                  solutions. Specialized in frontend development using React.js
-                  and JavaScript, crafting intuitive user interfaces and
-                  seamlessly integrating them with backend systems and web
-                  services.
+                  As a Senior Web Developer at SFS WebTech, I worked with my
+                  team to design and add new features, improving user
+                  experience. I collaborated across teams to tackle complex
+                  issues with creative solutions. I focused on frontend
+                  development with React.js and JavaScript, building
+                  user-friendly interfaces and connecting them with backend
+                  systems. I also used Laravel for backend development, creating
+                  strong and scalable server-side solutions.
                 </p>
               </div>
               <div class="flex-shrink-0">
@@ -89,11 +54,13 @@ const Experience = () => {
                 <h3 class="mb-0">Junior PHP Developer</h3>
                 <div class="subheading mb-3">Am WebTech Pvt. Ltd. Indore</div>
                 <p>
-                  Podcasting operational change management inside of workflows
-                  to establish a framework. Taking seamless key performance
-                  indicators offline to maximise the long tail. Keeping your eye
-                  on the ball while performing a deep dive on the start-up
-                  mentality to derive convergence on cross-platform integration.
+                  As a Junior PHP Developer, I contributed to building and
+                  refining features to improve user interactions. I collaborated
+                  with various teams to find effective solutions to technical
+                  challenges. My role involved writing PHP, HTML, and JavaScript
+                  code for server-side development, integrating applications
+                  with web services, and creating user interfaces that worked
+                  smoothly with APIs and backend systems.
                 </p>
               </div>
               <div class="flex-shrink-0">

@@ -6,6 +6,7 @@ import Experience from "./pages/Experience";
 import Home from "./pages/Home";
 import Interest from "./pages/Interest";
 import Skills from "./pages/Skills";
+import Projects from "./pages/Projects";
 const App = () => {
   return (
     <>
@@ -13,6 +14,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/experience" element={<Experience />} />
+          <Route path="/projects" element={<Projects />} />
           <Route path="/education" element={<Education />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/interests" element={<Interest />} />

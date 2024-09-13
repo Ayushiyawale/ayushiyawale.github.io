@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-
+import "../styles/style.css";
 const Skills = () => {
   return (
     <>
@@ -28,6 +28,12 @@ const Skills = () => {
               </li>
               <li class="list-inline-item">
                 <i class="fab fa-php"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fab fa-laravel"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fab fa-node"></i>
               </li>
             </ul>
             <div class="subheading mb-3">Tools</div>

@@ -11433,3 +11433,18 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+ul.list-inline.dev-icons li:hover {
+  scale: 1.2;
+  color: #e96f40;
+  /* filter: drop-shadow(0 0 0.75rem #c77f63); */
+}
+
+.dev-icons .list-inline-item {
+  display: inline-block; /* Ensures items are displayed inline */
+  margin-right: 15px; /* Adjust the value for desired spacing */
+}
+
+/* Optional: Remove margin from the last item */
+.dev-icons .list-inline-item:last-child {
+  margin-right: 0;
+}

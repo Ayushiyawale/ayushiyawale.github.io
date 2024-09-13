@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import Education from "./Education";
 import Experience from "./Experience";
-
+import Projects from "./Projects";
 const Home = () => {
   return (
     <>
@@ -16,8 +16,8 @@ const Home = () => {
             </h1>
             <div className="subheading mb-5">
               EWS-372, Ram Nagar Khandwa [M.P.] · (+91) 7974070130 ·
-              <a href="mailto:ayushiyawale4@gmail.com">
-                ayushiyawale4@gmail.com
+              <a href="mailto:job.ayushi.yawale@gmail.com">
+                job.ayushi.yawale@gmail.com
               </a>
             </div>
             <p className="lead mb-5">
@@ -28,18 +28,30 @@ const Home = () => {
               team player committed to continuous learning and improvement.
             </p>
             <div className="social-icons">
-              <a className="social-icon" href="#!">
+              <a
+                className="social-icon"
+                href="https://www.linkedin.com/in/ayushi-yawale-23090a1"
+                target="_blank"
+              >
                 <i className="fab fa-linkedin-in"></i>
               </a>
-              <a className="social-icon" href="#!">
+              <a
+                className="social-icon"
+                href="https://github.com/Ayushiyawale"
+                target="_blank"
+              >
                 <i className="fab fa-github"></i>
               </a>
-              <a className="social-icon" href="#!">
+              <a
+                className="social-icon"
+                href="https://www.instagram.com/ayushiyawale"
+                target="_blank"
+              >
                 <i className="fab fa-instagram"></i>
               </a>
-              <a className="social-icon" href="#!">
+              {/*<a className="social-icon" href="#!">
                 <i className="fab fa-facebook-f"></i>
-              </a>
+              </a> */}
             </div>
           </div>
         </section>
@@ -115,6 +127,7 @@ const Home = () => {
           </div>
         </section> */}
         <Experience />
+        <Projects />
         <hr className="m-0" />
         <Education />
         {/* <section className="resume-section" id="education">
@@ -167,6 +180,9 @@ const Home = () => {
               </li>
               <li class="list-inline-item">
                 <i class="fab fa-php"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fab fa-laravel"></i>
               </li>
             </ul>
             <div class="subheading mb-3">Tools</div>
